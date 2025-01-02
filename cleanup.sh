@@ -1,10 +1,10 @@
-@echo off
+#!/bin/bash
 
-echo Stopping Docker containers...
+echo "Stopping Docker containers..."
 docker compose down -v
 
-echo Removing backend directory...
-rd /s /q backend
+echo "Removing backend and frontend directories..."
+rm -rf backend
+rm -rf frontend
 
-echo Cleanup complete!
-pause
+echo "Cleanup complete!"
