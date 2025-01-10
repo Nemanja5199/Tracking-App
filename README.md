@@ -57,6 +57,9 @@ This example uses basic values; replace them with your specific configuration as
    - Run **docker-compose** to set up and start the application.
 4. Access the application at http://localhost:3000 in your browser.
 
+### Test Data
+in the folder Tracking Data use the **Test** **Data** for Hellman and  DHl. In the original file there are dataes that were not filled in correctly.
+
   ### Cleanup
    To stop and clean up the application:
    
